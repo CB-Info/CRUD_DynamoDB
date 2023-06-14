@@ -1,0 +1,27 @@
+{
+  "name": "crudynamodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CB-Info/CRUD_DynamoDB.git"
+  },
+  "author": "Clement le Maxi Crack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CB-Info/CRUD_DynamoDB/issues"
+  },
+  "homepage": "https://github.com/CB-Info/CRUD_DynamoDB#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1385.0",
+    "csv-parser": "^3.0.0",
+    "express": "^4.18.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^4.6.3",
+    "uuid": "^9.0.0"
+  }
+}
