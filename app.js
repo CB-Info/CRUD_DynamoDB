@@ -22,7 +22,7 @@ const swaggerSpec = require('./swagger.js');
 
 //AWS config
 AWS.config.update({
-    region: "eu-west-3", // replace with your region in AWS account
+    region: "eu-west-3", // Remplacez par votre région dans votre compte AWS
     accessKeyId: 'API_KEY',
     secretAccessKey: 'SECRET_KEY'
 });
