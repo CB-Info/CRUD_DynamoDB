@@ -9,6 +9,7 @@ Ce projet est une API permettant de gérer des contacts dans une table DynamoDB 
     - [Windows](#windows)
   - [Git](#git)
     - [Windows](#windows-1)
+- [Étapes préliminaires](#Étapes-préliminaires)
 - [Configuration](#configuration)
 - [Dépendances](#dépendances)
 - [Installation](#installation)
@@ -53,9 +54,15 @@ Git est un système de contrôle de version largement utilisé pour le suivi des
 ```javascript
 git --version
 ```
+## Étapes préliminaires
+Accédez au site web d'Amazon Web Services à l'adresse suivante : **'https://aws.amazon.com'**.
 
+Cliquez sur le bouton **"Créer un compte gratuit"** pour commencer le processus de création de compte. Suivez les instructions à l'écran pour vous inscrire.
+
+Une fois votre compte créé, connectez-vous à la console AWS à l'adresse suivante : **'https://console.aws.amazon.com'**.
 
 ## Configuration
+
 Avant d'utiliser cette API, assurez-vous de configurer correctement vos informations d'identification AWS. Dans le fichier **'app.js'**, vous devez mettre à jour les valeurs suivantes :
 
 ```javascript
