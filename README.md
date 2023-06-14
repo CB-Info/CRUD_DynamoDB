@@ -81,7 +81,7 @@ POST /api/contact
 ```javascript
 DELETE /api/contact/delete/:id
 ```
-Mettre à jour un contact par ID :
+### Mettre à jour un contact par ID :
 ```javascript
 POST /api/contact/update/:id
 {
@@ -90,3 +90,4 @@ POST /api/contact/update/:id
   "address": "789 New St"
 }
 ```
+\*test\*
