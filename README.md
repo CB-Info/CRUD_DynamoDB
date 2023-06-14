@@ -9,10 +9,10 @@ Ce projet est une API permettant de gérer des contacts dans une table DynamoDB 
     - [Windows](#windows)
   - [Git](#git)
     - [Windows](#windows-1)
--[Configuration](#configuration)
--[Dépendances](#dépendances)
--[Installation](#installation)
--[Points de terminaison de l'API](#points-de-terminaison-de-l'api)
+- [Configuration](#configuration)
+- [Dépendances](#dépendances)
+- [Installation](#installation)
+- [Points de terminaison de l'API](#points-de-terminaison-de-l'api)
 
     
 # Installation de Node.js et Git
