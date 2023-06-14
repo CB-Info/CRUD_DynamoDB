@@ -55,11 +55,11 @@ Git est un système de contrôle de version largement utilisé pour le suivi des
 git --version
 ```
 ## Étapes préliminaires
-Accédez au site web d'Amazon Web Services à l'adresse suivante : **'https://aws.amazon.com'**.
+Accédez au site web d'Amazon Web Services à l'adresse suivante : **https://aws.amazon.com**.
 
 Cliquez sur le bouton **"Créer un compte gratuit"** pour commencer le processus de création de compte. Suivez les instructions à l'écran pour vous inscrire.
 
-Une fois votre compte créé, connectez-vous à la console AWS à l'adresse suivante : **'https://console.aws.amazon.com'**.
+Une fois votre compte créé, connectez-vous à la console AWS à l'adresse suivante : **https://console.aws.amazon.com**.
 
 ## Configuration
 
