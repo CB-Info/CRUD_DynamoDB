@@ -11,57 +11,60 @@ AWS.config.update({
     accessKeyId: 'VOTRE_ACCESS_KEY_ID',
     secretAccessKey: 'VOTRE_SECRET_ACCESS_KEY'
 });
+```
 
 ## Dépendances
 Ce projet utilise les dépendances suivantes :
 
-AWS SDK : SDK AWS pour interagir avec DynamoDB.
-uuid : Génération d'identifiants uniques.
-csv-parser : Analyseur CSV pour importer des contacts à partir d'un fichier CSV.
-express : Framework Node.js pour créer l'API.
-body-parser : Middleware pour analyser les corps de requête JSON.
-swagger-ui-express : Affichage de la documentation Swagger.
-Installation
-Clonez le dépôt GitHub :
-bash
-Copy code
+- AWS SDK : SDK AWS pour interagir avec DynamoDB.
+- uuid : Génération d'identifiants uniques.
+- csv-parser : Analyseur CSV pour importer des contacts à partir d'un fichier CSV.
+- express : Framework Node.js pour créer l'API.
+- body-parser : Middleware pour analyser les corps de requête JSON.
+- swagger-ui-express : Affichage de la documentation Swagger.
+
+## Installation
+1. Clonez le dépôt GitHub :
+```javascript
 git clone <lien-du-depot>
 cd <nom-du-repertoire>
-Installez les dépendances :
-Copy code
+```
+2. Installez les dépendances :
+```javascript
 npm install
-Démarrez le serveur :
-sql
-Copy code
+```
+3. Démarrez le serveur :
+```javascript
 npm start
+```
 Le serveur sera accessible à l'adresse http://localhost:3000.
 
 ## Points de terminaison de l'API
-GET /api/contacts : Récupère tous les contacts.
-GET /api/contact/:id : Récupère un contact par ID.
-POST /api/contact : Crée un nouveau contact.
-POST /api/createTable : Crée une nouvelle table DynamoDB.
-POST /api/importContact : Importe des contacts à partir d'un fichier CSV.
-DELETE /api/deleteAllContacts : Supprime tous les contacts de la table.
-DELETE /api/contact/delete/:id : Supprime un contact par ID.
-POST /api/contact/update/:id : Met à jour un contact par ID.
-Documentation Swagger
+- GET /api/contacts : Récupère tous les contacts.
+- GET /api/contact/:id : Récupère un contact par ID.
+- POST /api/contact : Crée un nouveau contact.
+- POST /api/createTable : Crée une nouvelle table DynamoDB.
+- POST /api/importContact : Importe des contacts à partir d'un fichier CSV.
+- DELETE /api/deleteAllContacts : Supprime tous les contacts de la table.
+- DELETE /api/contact/delete/:id : Supprime un contact par ID.
+- POST /api/contact/update/:id : Met à jour un contact par ID.
+
+## Documentation Swagger
 Une documentation Swagger est disponible à l'adresse http://localhost:3000/api/docs. Elle fournit des informations détaillées sur chaque point de terminaison de l'API.
 
 ## Exemples de requêtes
 Voici quelques exemples de requêtes que vous pouvez effectuer avec l'API :
 
 ### Récupérer tous les contacts :
-bash
-Copy code
+```javascript
 GET /api/contacts
+```
 ### Récupérer un contact par ID :
-bash
-Copy code
+```javascript
 GET /api/contact/:id
+```
 ### Créer un nouveau contact :
-bash
-Copy code
+```javascript
 POST /api/contact
 {
   "title": "M.",
@@ -73,16 +76,17 @@ POST /api/contact
   "tel": "555-1234",
   "email": "john@example.com"
 }
+```
 ### Supprimer un contact par ID :
-bash
-Copy code
+```javascript
 DELETE /api/contact/delete/:id
+```
 Mettre à jour un contact par ID :
-bash
-Copy code
+```javascript
 POST /api/contact/update/:id
 {
   "title": "Mme",
   "name": "Jane Doe",
   "address": "789 New St"
 }
+```
