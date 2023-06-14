@@ -4,10 +4,16 @@ Ce projet est une API permettant de gérer des contacts dans une table DynamoDB 
 
 ## Table des matières
 
-- [Noede.js](#nodejs)
-  - [Windows](#windows)
-- [Git](#git)
-  - [Windows](#windows-1)
+- [Installation de Node.js et Git](#installation-de-node.js-et-git)
+  - [Node.js](#nodejs)
+    - [Windows](#windows)
+  - [Git](#git)
+    - [Windows](#windows-1)
+-[Configuration](#configuration)
+-[Dépendances](#dépendances)
+-[Installation](#installation)
+-[Points de terminaison de l'API](#points-de-terminaison-de-l'api)
+
     
 # Installation de Node.js et Git
 
