@@ -90,3 +90,107 @@ POST /api/contact/update/:id
   "address": "789 New St"
 }
 ```
+# Installation de Node.js et Git
+
+Ce guide vous explique comment installer Node.js et Git sur votre système.
+
+## Table des matières
+
+- [Node.js](#nodejs)
+  - [Windows](#windows)
+  - [macOS](#macos)
+  - [Linux](#linux)
+- [Git](#git)
+  - [Windows](#windows-1)
+  - [macOS](#macos-1)
+  - [Linux](#linux-1)
+
+## Node.js
+
+Node.js est une plateforme basée sur le moteur JavaScript V8 de Chrome permettant d'exécuter du code JavaScript côté serveur.
+
+### Windows
+
+1. Rendez-vous sur le site officiel de Node.js : [https://nodejs.org](https://nodejs.org).
+2. Téléchargez la version recommandée pour Windows.
+3. Exécutez le fichier d'installation téléchargé.
+4. Suivez les instructions de l'assistant d'installation.
+5. Vérifiez l'installation en ouvrant une fenêtre de terminal et en exécutant la commande suivante :
+node --version
+
+markdown
+Copy code
+
+### macOS
+
+1. Utilisez Homebrew pour installer Node.js en ouvrant un terminal et en exécutant la commande suivante :
+brew install node
+
+markdown
+Copy code
+2. Vérifiez l'installation en exécutant la commande suivante :
+node --version
+
+markdown
+Copy code
+
+### Linux
+
+1. Ouvrez un terminal.
+2. Utilisez le gestionnaire de paquets de votre distribution pour installer Node.js. Par exemple, sur Ubuntu, exécutez :
+sudo apt install nodejs
+
+markdown
+Copy code
+3. Vérifiez l'installation en exécutant la commande suivante :
+node --version
+
+markdown
+Copy code
+
+## Git
+
+Git est un système de contrôle de version largement utilisé pour le suivi des modifications du code source.
+
+### Windows
+
+1. Rendez-vous sur le site officiel de Git : [https://git-scm.com](https://git-scm.com).
+2. Téléchargez la version recommandée pour Windows.
+3. Exécutez le fichier d'installation téléchargé.
+4. Suivez les instructions de l'assistant d'installation en acceptant les paramètres par défaut.
+5. Vérifiez l'installation en ouvrant une fenêtre de terminal et en exécutant la commande suivante :
+git --version
+
+markdown
+Copy code
+
+### macOS
+
+1. Installez Git en utilisant Homebrew en ouvrant un terminal et en exécutant la commande suivante :
+brew install git
+
+markdown
+Copy code
+2. Vérifiez l'installation en exécutant la commande suivante :
+git --version
+
+markdown
+Copy code
+
+### Linux
+
+1. Ouvrez un terminal.
+2. Utilisez le gestionnaire de paquets de votre distribution pour installer Git. Par exemple, sur Ubuntu, exécutez :
+sudo apt install git
+
+markdown
+Copy code
+3. Vérifiez l'installation en exécutant la commande suivante :
+git --version
+
+less
+Copy code
+
+C'est tout ! Vous avez maintenant installé Node.js et Git sur votre système.
+
+Pour commencer à utiliser ces outils, consultez les documentations officielles de [Node.js](https://nodejs.org)
