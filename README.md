@@ -95,7 +95,7 @@ npm install
 ```
 3. Démarrez le serveur :
 ```javascript
-npm start
+node app.js
 ```
 Le serveur sera accessible à l'adresse **'http://localhost:3000'**.
 
