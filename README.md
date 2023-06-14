@@ -108,7 +108,7 @@ Une documentation Swagger est disponible à l'adresse **'http://localhost:3000/a
 ## Exemples de requêtes
 Voici quelques exemples de requêtes que vous pouvez effectuer avec l'API :
 
-### Récupérer tous les contacts :
+### Récupérer tous les contacts
 ```javascript
 GET /api/contacts
 ```
@@ -116,7 +116,7 @@ GET /api/contacts
 ```javascript
 GET /api/contact/:id
 ```
-### Créer un nouveau contact :
+### Créer un nouveau contact
 ```javascript
 POST /api/contact
 {
@@ -130,11 +130,11 @@ POST /api/contact
   "email": "john@example.com"
 }
 ```
-### Supprimer un contact par ID :
+### Supprimer un contact par ID
 ```javascript
 DELETE /api/contact/delete/:id
 ```
-### Mettre à jour un contact par ID :
+### Mettre à jour un contact par ID
 ```javascript
 POST /api/contact/update/:id
 {
