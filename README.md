@@ -5,8 +5,7 @@ Ce projet est une API permettant de gérer des contacts dans une table DynamoDB 
 ## Configuration
 Avant d'utiliser cette API, assurez-vous de configurer correctement vos informations d'identification AWS. Dans le fichier app.js, vous devez mettre à jour les valeurs suivantes :
 
-javascript
-Copy code
+```javascript
 AWS.config.update({
     region: "eu-west-3", // Remplacez par votre région dans votre compte AWS
     accessKeyId: 'VOTRE_ACCESS_KEY_ID',
