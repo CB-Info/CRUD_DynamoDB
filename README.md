@@ -2,6 +2,47 @@
 
 Ce projet est une API permettant de gérer des contacts dans une table DynamoDB d'Amazon Web Services (AWS).
 
+## Table des matières
+
+- [Noede.js](#nodejs)
+  - [Windows](#windows)
+- [Git](#git)
+  - [Windows](#windows-1)
+    
+# Installation de Node.js et Git
+
+Ce guide vous explique comment installer Node.js et Git sur votre système.
+
+## Node.js
+
+Node.js est une plateforme basée sur le moteur JavaScript V8 de Chrome permettant d'exécuter du code JavaScript côté serveur.
+
+### Windows
+
+1. Rendez-vous sur le site officiel de Node.js : [https://nodejs.org](https://nodejs.org).
+2. Téléchargez la version recommandée pour Windows.
+3. Exécutez le fichier d'installation téléchargé.
+4. Suivez les instructions de l'assistant d'installation.
+5. Vérifiez l'installation en ouvrant une fenêtre de terminal et en exécutant la commande suivante :
+```javascript
+node --version
+```
+## Git
+
+Git est un système de contrôle de version largement utilisé pour le suivi des modifications du code source.
+
+### Windows
+
+1. Rendez-vous sur le site officiel de Git : [https://git-scm.com](https://git-scm.com).
+2. Téléchargez la version recommandée pour Windows.
+3. Exécutez le fichier d'installation téléchargé.
+4. Suivez les instructions de l'assistant d'installation en acceptant les paramètres par défaut.
+5. Vérifiez l'installation en ouvrant une fenêtre de terminal et en exécutant la commande suivante :
+```javascript
+git --version
+```
+
+
 ## Configuration
 Avant d'utiliser cette API, assurez-vous de configurer correctement vos informations d'identification AWS. Dans le fichier **'app.js'**, vous devez mettre à jour les valeurs suivantes :
 
@@ -89,43 +130,4 @@ POST /api/contact/update/:id
   "name": "Jane Doe",
   "address": "789 New St"
 }
-```
-# Installation de Node.js et Git
-
-Ce guide vous explique comment installer Node.js et Git sur votre système.
-
-## Table des matières
-
-- [Node.js](#nodejs)
-  - [Windows](#windows)
-- [Git](#git)
-  - [Windows](#windows-1)
-
-## Node.js
-
-Node.js est une plateforme basée sur le moteur JavaScript V8 de Chrome permettant d'exécuter du code JavaScript côté serveur.
-
-### Windows
-
-1. Rendez-vous sur le site officiel de Node.js : [https://nodejs.org](https://nodejs.org).
-2. Téléchargez la version recommandée pour Windows.
-3. Exécutez le fichier d'installation téléchargé.
-4. Suivez les instructions de l'assistant d'installation.
-5. Vérifiez l'installation en ouvrant une fenêtre de terminal et en exécutant la commande suivante :
-```javascript
-node --version
-```
-## Git
-
-Git est un système de contrôle de version largement utilisé pour le suivi des modifications du code source.
-
-### Windows
-
-1. Rendez-vous sur le site officiel de Git : [https://git-scm.com](https://git-scm.com).
-2. Téléchargez la version recommandée pour Windows.
-3. Exécutez le fichier d'installation téléchargé.
-4. Suivez les instructions de l'assistant d'installation en acceptant les paramètres par défaut.
-5. Vérifiez l'installation en ouvrant une fenêtre de terminal et en exécutant la commande suivante :
-```javascript
-git --version
 ```
