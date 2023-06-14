@@ -112,7 +112,7 @@ Voici quelques exemples de requêtes que vous pouvez effectuer avec l'API :
 ```javascript
 GET /api/contacts
 ```
-### Récupérer un contact par ID :
+### Récupérer un contact par ID
 ```javascript
 GET /api/contact/:id
 ```
