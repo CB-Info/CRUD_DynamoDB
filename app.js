@@ -23,8 +23,8 @@ const swaggerSpec = require('./swagger.js');
 //AWS config
 AWS.config.update({
     region: "eu-west-3", // replace with your region in AWS account
-    accessKeyId: 'AKIA3XXF7CLZDMW6MPIX',
-    secretAccessKey: '0XWgEgxHhm6tZDfPR2OoBSR6KS3i/B0IyCQGlob9'
+    accessKeyId: 'API_KEY',
+    secretAccessKey: 'SECRET_KEY'
 });
 
 const DynamoDB = new AWS.DynamoDB();
