@@ -3,7 +3,7 @@
 Ce projet est une API permettant de gérer des contacts dans une table DynamoDB d'Amazon Web Services (AWS).
 
 ## Configuration
-Avant d'utiliser cette API, assurez-vous de configurer correctement vos informations d'identification AWS. Dans le fichier **app.js**, vous devez mettre à jour les valeurs suivantes :
+Avant d'utiliser cette API, assurez-vous de configurer correctement vos informations d'identification AWS. Dans le fichier **'app.js'**, vous devez mettre à jour les valeurs suivantes :
 
 ```javascript
 AWS.config.update({
@@ -16,12 +16,12 @@ AWS.config.update({
 ## Dépendances
 Ce projet utilise les dépendances suivantes :
 
-- <ins>AWS SDK</ins> : SDK AWS pour interagir avec DynamoDB.
-- <ins>uuid</ins> : Génération d'identifiants uniques.
-- <ins>csv-parser</ins> : Analyseur CSV pour importer des contacts à partir d'un fichier CSV.
-- <ins>express</ins> : Framework Node.js pour créer l'API.
-- <ins>body-parser</ins> : Middleware pour analyser les corps de requête JSON.
-- <ins>swagger-ui-express</ins> : Affichage de la documentation Swagger.
+- <ins>**AWS SDK**</ins> : SDK AWS pour interagir avec DynamoDB.
+- <ins>**uuid**</ins> : Génération d'identifiants uniques.
+- <ins>**csv-parser**</ins> : Analyseur CSV pour importer des contacts à partir d'un fichier CSV.
+- <ins>**express**</ins> : Framework Node.js pour créer l'API.
+- <ins>**body-parser**</ins> : Middleware pour analyser les corps de requête JSON.
+- <ins>**swagger-ui-express**</ins> : Affichage de la documentation Swagger.
 
 ## Installation
 1. Clonez le dépôt GitHub :
@@ -37,7 +37,7 @@ npm install
 ```javascript
 npm start
 ```
-Le serveur sera accessible à l'adresse **http://localhost:3000**.
+Le serveur sera accessible à l'adresse **'http://localhost:3000'**.
 
 ## Points de terminaison de l'API
 - **GET /api/contacts** : Récupère tous les contacts.
