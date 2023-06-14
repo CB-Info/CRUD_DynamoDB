@@ -15,11 +15,11 @@ Ce projet est une API permettant de gérer des contacts dans une table DynamoDB 
 - [Points de terminaison de l'API](#points-de-terminaison-de-l'api)
 - [Documentation Swagger](#documentation-swagger)
 - [Exemples de requêtes](#exemples-de-requêtes)
-  - [Récupérer tous les contacts](#récupérer-tous-les-contacts)
-  - [Récupérer un contact par ID](#récupérer-un-contact-par-id)
-  - [Créer un nouveau contacts](#Créer-un-nouveau-contacts)
-  - [Supprimer un contact par ID](#Supprimer-un-contact-par-ID)
-  - [Mettre à jour un contact par ID](#Mettre-à-jour-un-contact-par-ID)
+  - [Récupérer tous les contacts](#récupérer-tous-les-contacts-:)
+  - [Récupérer un contact par ID](#récupérer-un-contact-par-id-:)
+  - [Créer un nouveau contacts](#Créer-un-nouveau-contacts-:)
+  - [Supprimer un contact par ID](#Supprimer-un-contact-par-ID-:)
+  - [Mettre à jour un contact par ID](#Mettre-à-jour-un-contact-par-ID-:)
     
 # Installation de Node.js et Git
 
