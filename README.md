@@ -50,7 +50,7 @@ Le serveur sera accessible à l'adresse **'http://localhost:3000'**.
 - **POST /api/contact/update/:id** : Met à jour un contact par ID.
 
 ## Documentation Swagger
-Une documentation Swagger est disponible à l'adresse http://localhost:3000/api/docs. Elle fournit des informations détaillées sur chaque point de terminaison de l'API.
+Une documentation Swagger est disponible à l'adresse **'http://localhost:3000/api/docs'**. Elle fournit des informations détaillées sur chaque point de terminaison de l'API.
 
 ## Exemples de requêtes
 Voici quelques exemples de requêtes que vous pouvez effectuer avec l'API :
